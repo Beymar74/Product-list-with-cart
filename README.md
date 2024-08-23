@@ -1,2 +1,2 @@
 # Product-list-with-cart
-Practice updating the UI in multiple places based on user actions. The starter download also includes a JSON file to help you practice populating the DOM dynamically.
+Practique la actualización de la interfaz de usuario en varios lugares según las acciones del usuario. La descarga inicial también incluye un archivo JSON para ayudarlo a practicar la cumplimentación dinámica del DOM.
