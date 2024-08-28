@@ -386,3 +386,161 @@ h1 {
   .pie .add-to-cart-btn:hover {
     background-color: var(--Red);
   }
+  .cake {
+    width: 100%;
+    max-width: 350px;
+    margin: 25px 0;
+    border-radius: 8px;
+    overflow:visible;
+    display: inline-block;
+    position: relative;
+  }
+  .cake img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  .cake button {
+    margin: 0px 0;
+  }
+  .cake .add-to-cart-btn img{
+    height: 18px;
+    margin-right:px;
+    background-color: white;
+  }
+  .cake .add-to-cart-btn {
+    position:absolute;
+    bottom: -15px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: var(--Rose-50);
+    border: 1px solid var(--Rose-300);
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    gap: 10px;
+  }
+  .cake .add-to-cart-btn span{
+    font-weight: 600;
+    color:var(--Rose-900);
+    white-space: nowrap;
+    background-color: white;
+  }
+  .cake .add-to-cart-btn:hover {
+    background-color: var(--Red);
+  }
+  .brownie {
+    width: 100%;
+    max-width: 350px;
+    margin: 25px 0;
+    border-radius: 8px;
+    overflow:visible;
+    display: inline-block;
+    position: relative;
+  }
+  .brownie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  .brownie button {
+    margin: 0px 0;
+  }
+  .brownie .add-to-cart-btn img{
+    height: 18px;
+    margin-right:px;
+    background-color: white;
+  }
+  .brownie .add-to-cart-btn {
+    position:absolute;
+    bottom: -15px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: var(--Rose-50);
+    border: 1px solid var(--Rose-300);
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    gap: 10px;
+  }
+  .brownie .add-to-cart-btn span{
+    font-weight: 600;
+    color:var(--Rose-900);
+    white-space: nowrap;
+    background-color: white;
+  }
+  .brownie .add-to-cart-btn:hover {
+    background-color: var(--Red);
+  }
+
+  .panna {
+    width: 100%;
+    max-width: 350px;
+    margin: 25px 0;
+    border-radius: 8px;
+    overflow:visible;
+    display: inline-block;
+    position: relative;
+  }
+  .panna img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  .panna button {
+    margin: 0px 0;
+  }
+  .panna .add-to-cart-btn img{
+    height: 18px;
+    margin-right:px;
+    background-color: white;
+  }
+  .panna .add-to-cart-btn {
+    position:absolute;
+    bottom: -15px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: var(--Rose-50);
+    border: 1px solid var(--Rose-300);
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    gap: 10px;
+  }
+  .panna .add-to-cart-btn span{
+    font-weight: 600;
+    color:var(--Rose-900);
+    white-space: nowrap;
+    background-color: white;
+  }
+  .panna .add-to-cart-btn:hover {
+    background-color: var(--Red);
+  }
+  .buy{
+    background-color: white;
+    padding: 50px;
+    padding: 20px 20px;
+    margin: 20px;
+    color: var(--Rose-500);
+  font-size: 0.83rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  }
+  .cart{
+    background-color: white;
+    color:var(--Red);
+  }
+  .textbuy{
+    background-color: white; 
+    color:var(--Rose-400);
+    font-size: 12px;
+    font-weight: 700;
+    
+  }
