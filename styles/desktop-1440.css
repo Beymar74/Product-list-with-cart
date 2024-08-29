@@ -1,6 +1,4 @@
 /* desktop-1440.css */
-
-/* Configuración general para pantalla de 1440px de ancho */
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -10,7 +8,7 @@ body {
     flex-direction: row;
 }
 
-/* Contenedor principal */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -27,29 +25,29 @@ body {
     flex-direction: column;
     margin: 10px;
 }
-/* Ajuste de tamaño para las imágenes */
+
 .container img {
-    max-width: 100%; /* Asegura que las imágenes no excedan el tamaño de su contenedor */
-    height: auto; /* Mantiene la proporción de las imágenes */
-    width: 330px; /* Puedes ajustar este valor para hacer las imágenes más pequeñas */
+    max-width: 100%;
+    height: auto;
+    width: 330px; 
 }
 
-/* Estilo para la primera fila: wafle, vainilla, macaron */
+
 .waffle, .creme, .macaron {
     margin: 5px;
 }
 
-/* Estilo para la segunda fila: tiramisu, baklava, pie */
+
 .tiramisu, .baklava, .pie {
     margin: 5px;
 }
 
 
-/* Estilo para la tercera fila: cake, brownie, panna */
+
 .cake, .brownie, .panna {
     margin: 5px;   
 }
-/* Ordenar la tarjeta de orden (order-card) en el extremo superior derecho */
+
 .order-cart {
     position: relative;
     top: 20px;
