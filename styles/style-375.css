@@ -664,20 +664,20 @@
 
 .delivery-text {
     background-color: #fff;
-    display: flex;
     align-items: center;
     margin: 10px 0;
     margin-top: 40px;
+    font-size: 13px;
 }
 .delivery-text p {
   background-color: var(--Rose-200);
 }
-
 .delivery-text img {
     background-color: #fff;
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    
 }
 
 button {
@@ -692,8 +692,11 @@ button {
 }
 .button-delivery#btn{
   font-size: 20cap;
-  
 }
 button:hover {
     background-color: var(--Red);
+}
+.button-delivery{
+  max-width: 100%;
+  border-radius: 10px;
 }

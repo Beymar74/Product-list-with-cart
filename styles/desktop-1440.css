@@ -1,0 +1,60 @@
+/* desktop-1440.css */
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    width: 330px; 
+}
+
+
+.waffle, .creme, .macaron {
+    margin: 5px;
+}
+
+
+.tiramisu, .baklava, .pie {
+    margin: 5px;
+}
+
+
+
+.cake, .brownie, .panna {
+    margin: 5px;   
+}
+
+.order-cart {
+    position: relative;
+    top: 20px;
+    background-color: #fff;
+    height: 486px;
+    right: -40px;
+    padding: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
